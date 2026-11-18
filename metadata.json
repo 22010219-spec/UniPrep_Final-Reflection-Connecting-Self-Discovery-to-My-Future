@@ -1,0 +1,8 @@
+{
+  "name": "Compass Reflection",
+  "description": "Interactive MBTI and Holland Code self-discovery studio with a follow-up reflection coach and 1,000-word final reflection builder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
