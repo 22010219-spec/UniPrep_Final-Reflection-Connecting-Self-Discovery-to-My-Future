@@ -194,7 +194,7 @@ export const AssessmentCharts: React.FC = () => {
               <div className="rounded-xl border border-slate-200 bg-slate-50/70 p-4 flex flex-col items-center justify-center min-h-[340px] space-y-3">
                 {!imgError ? (
                   <img
-                    src="/assets/aistudio/Screenshot_2026-11-18_at_20.54.48_7adc8d8f.png"
+                    src={`${import.meta.env.BASE_URL}assets/aistudio/Screenshot_2026-11-18_at_20.54.48_7adc8d8f.png`}
                     alt="Original Holland Code RIASEC assessment result for Tran Hai Yen"
                     referrerPolicy="no-referrer"
                     onError={() => setImgError(true)}
